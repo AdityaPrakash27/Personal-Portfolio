@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/284221ed8d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="LogoME1.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Coder</p>
+                <h1>Hi, I'm <span> Aditya </span><br>Prakash</h1>
+                
+            </div>
+        </div> 
+        <!-- <img src="IMG20230719121252-removebg-preview.png" alt="" id="bgimg">    -->
+    </div>
+    <div id="about">
+        <div class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="2nd.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>A Computer Science student proficient in various programming languages with a profound enthusiasm for Web Development and front-end technologies. Possessing robust problem-solving abilities and a proven aptitude for collaborative teamwork.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Experience in front-end technologies like HTML, CSS, and JavaScript.</li>
+                            <li><span>Programming Languages</span><br>Proficient in languages such as Java, Python, and C++.</li>
+                            <li><span>Problem Solving</span><br>Adept at solving complex problems through algorithmic and logical approaches.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Soon...</span><br>I have no formal work experience as of now.</li>
+                            <li><span>But</span><br>I can't wait to leverage my skills to contribute to the ever-evolving field of computer science.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            
+                            <li><span>2026</span><br>B.Tech in CSE from S.R.M University</li>
+                            <li><span>2021</span><br>D.A.V Public School</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-fade"></i>
+                    <h2>Web Development</h2>
+                    <p>I will create dynamic and engaging user interfaces while delivering customized web solutions that perfectly match your specific business needs.</p>
+                    <a href="https://youtu.be/z0n1aQ3IxWI?si=FOYg51WM8jmoWK-E">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal fa-fade"></i>
+                    <h2>API Development</h2>
+                    <p>I create robust and efficient RESTful and GraphQL APIs that seamlessly connect applications, ensuring data exchange and communication with security and scalability at the forefront.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button fa-fade"></i>
+                    <h2>App Development</h2>
+                    <p>I excel in cross-platform app development through the utilization of frameworks such as React Native, Flutter, and Xamarin.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="stonks2.png" alt="">
+                    <div class="layer">
+                        <h3>Visualising and forecasting stocks</h3>
+                        <p>This project aims to provide users with a user-friendly interface to explore historical stock data, analyze trends, and predict future stock prices.</p>
+                        <i class="fa-thin fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>adityaprakash2702@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0987654321</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/aditya_prakash27/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-prakash-0bb633248" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AdityaPrakash27" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Aditya Prakash.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©Aditya</p>
+        </div>
+    </div>
+    
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script> 
+
+
+
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>  
+    
+</body>
+</html>
