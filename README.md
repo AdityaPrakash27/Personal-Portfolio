@@ -1,3 +1,3 @@
 # Personal-Portfolio
 
-Visit my website [Aditya Prakash](https://adityaprakash27.github.io/Personal-Portfolio/?authuser=0)
+Visit my website [Aditya Prakash](https://adityaprakash27.github.io/Personal-Portfolio/)
